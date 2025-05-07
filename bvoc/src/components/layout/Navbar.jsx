@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navItems = [
-  { name: 'Cortex', href: '/' },
-  { name: 'Infrastructure', href: '/infrastructure' },
-  { name: 'Learn & Grow', href: '/learn-grow' },
-  { name: 'Sentience', href: '/sentience' },
-];
+    { name: 'Hub', href: '/' },
+    { name: 'Infrastructure', href: '/infrastructure' },
+    { name: 'Learn & Grow', href: '/learn-grow' },
+    { name: "Why We're Different", href: '/sentience' },
+  ];  
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#2C2E33] fixed w-full top-0 ">
-      <div className="max-w-screen-xl mx-auto p-4 flex flex-wrap items-center justify-center">
+      <div className="max-w-screen-xl mx-auto p-4 flex flex-wrap items-center justify-end md:justify-center">
         
         {/* Mobile menu button */}
         <button
