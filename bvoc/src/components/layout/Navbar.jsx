@@ -17,7 +17,7 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <nav className="bg-[#2C2E33] fixed w-full top-0 ">
+    <nav className="bg-[#2C2E33] fixed w-full top-0 z-20">
       <div className="max-w-screen-xl mx-auto p-4 flex flex-wrap items-center justify-end md:justify-center">
         
         {/* Mobile menu button */}
