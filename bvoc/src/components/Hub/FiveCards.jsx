@@ -39,7 +39,7 @@ const FiveCards = () => {
 
   return (
     <div className="p-4 sm:p-6 rounded-3xl shadow-lg mt-10">
-      <div className="bg-[#2F1C48] text-white p-6 lg:p-12 shadow-xs shadow-white rounded-3xl">
+      <div className="bg-[#2F1C48] text-white p-6 lg:p-12 shadow-sm shadow-white rounded-3xl">
         {/* Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 text-center">
           {cardData.map((card, index) => (
