@@ -5,6 +5,7 @@ import Footer from '@/components/layout/Footer';
 import Welcome from '@/components/Hub/Welcome';
 import AdmissionCard from '@/components/Hub/AdmissionCard';
 import AboutUs from '@/components/Hub/AboutUs';
+import FiveCards from '@/components/Hub/FiveCards';
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
         <Welcome/>
         <AdmissionCard/>
         <AboutUs/>
+        <FiveCards/>
       </main>
       <Footer />
     </div>
