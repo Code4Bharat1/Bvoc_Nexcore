@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navItems = [
-    { name: 'Hub', href: '/' },
-    { name: 'Infrastructure', href: '/infrastructure' },
-    { name: 'Learn & Grow', href: '/learn-grow' },
-    { name: "Why We're Different", href: '/sentience' },
-  ];  
+  { name: 'Hub', href: '/' },
+  { name: 'Infrastructure', href: '/infrastructure' },
+  { name: 'Learn & Grow', href: '/learn-grow' },
+  { name: "Why We're Different", href: '/sentience' },
+];
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -18,8 +18,17 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#2C2E33] fixed w-full top-0 z-20">
-      <div className="max-w-screen-xl mx-auto p-4 flex flex-wrap items-center justify-end md:justify-center">
+      <div className="max-w-screen-xl mx-auto p-4 flex flex-wrap items-center justify-between">
         
+        {/* Brand Name */}
+        <div className="text-white text-xl font-extrabold tracking-wide">
+          <Link href="/">
+            <span>
+              <span className="text-[#AC6CFF]">B</span>VOC
+            </span>
+          </Link>
+        </div>
+
         {/* Mobile menu button */}
         <button
           onClick={toggleMenu}
