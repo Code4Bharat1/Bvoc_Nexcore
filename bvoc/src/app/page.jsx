@@ -10,6 +10,8 @@ import CareerOpportunities from '@/components/Hub/CareerOpportunities';
 import InDemandCareer from '@/components/Hub/InDemandCareer';
 import CareerPath from '@/components/Hub/CareerPath';
 import KickStart from '@/components/Hub/KickStart';
+import NextLevelRole from '@/components/Hub/NextLevelRole';
+import ShapeTheFuture from '@/components/Hub/ShapeTheFuture';
 
 const Page = () => {
   return (
@@ -25,6 +27,8 @@ const Page = () => {
         <InDemandCareer/>
         <CareerPath/>
         <KickStart/>
+        <NextLevelRole/>
+        <ShapeTheFuture/>
       </main>
       <Footer />
     </div>

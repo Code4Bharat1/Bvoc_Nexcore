@@ -1,41 +1,41 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const cardData = [
   {
     id: 1,
-    image: '/MachineLearning_Home.png',
-    title: 'Machine Learning\nEngineer',
+    image: "/MachineLearning_Home.png",
+    title: "Machine Learning\nEngineer",
   },
   {
     id: 2,
-    image: '/AiSoftware_Home.png',
-    title: 'AI Software\nEngineer',
+    image: "/AiSoftware_Home.png",
+    title: "AI Software\nEngineer",
   },
   {
     id: 3,
-    image: '/DA_Home.png',
-    title: 'Data Analyst\n(AI/ML Focus)',
+    image: "/DA_Home.png",
+    title: "Data Analyst\n(AI/ML Focus)",
   },
   {
     id: 4,
-    image: '/AiHealthcare_Home.png',
-    title: 'AI Engineer\nin Healthcare',
+    image: "/AiHealthcare_Home.png",
+    title: "AI Engineer\nin Healthcare",
   },
   {
     id: 5,
-    image: '/AiSoftware_Home.png',
-    title: 'Speech Recognition\nEngineer',
+    image: "/AiSoftware_Home.png",
+    title: "Speech Recognition\nEngineer",
   },
 ];
 
 const KickStart = () => {
   return (
-    <div className="bg-[#EADAFF] p-8 ">
+    <div className="bg-[#EADAFF] p-3 lg:p-8 ">
       <h1 className="lg:hidden text-center text-[#2B2038] text-4xl font-extrabold pb-16 pt-9 leading-tight">
-        Kickstart Your <br /> Career
+        Kickstart <br /> Your Career
       </h1>
-      <h1 className="hidden lg:block text-center text-[#2B2038] text-3xl lg:text-6xl font-extrabold pb-16 pt-9 leading-tight">
+      <h1 className="hidden lg:block text-center text-[#2B2038] text-3xl lg:text-6xl font-extrabold lg:pb-16 pt-9 leading-tight">
         Kickstart Your Career
       </h1>
 
