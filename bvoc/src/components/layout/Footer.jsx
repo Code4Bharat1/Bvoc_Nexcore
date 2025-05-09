@@ -14,7 +14,7 @@ const Footer = () => {
           {/* Left - Description */}
           <div className="md:w-1/2 mb-10 md:my-8 md:mb-0">
             <p className="hidden md:block text-base md:text-xl leading-relaxed text-white">
-              <strong className="text-xl">B.Voc in AI & ML</strong> is a
+              <strong className="text-xl"><span className="text-[#AC6CFF]">B.</span>Voc in AI & ML</strong> is a
               next-gen undergraduate <br />
               program designed to equip students with real- <br />
               world AI skills. Co-developed with industry <br />
@@ -22,7 +22,7 @@ const Footer = () => {
               launch tech-driven careers.
             </p>
             <p className="text-base md:text-xl leading-relaxed text-white md:hidden">
-              <strong className="text-xl">B.Voc in AI & ML</strong> is a
+              <strong className="text-xl"><span className="text-[#AC6CFF]">B.</span>Voc in AI & ML</strong> is a
               next-gen undergraduate 
               program designed to equip students with real- 
               world AI skills. Co-developed with industry 

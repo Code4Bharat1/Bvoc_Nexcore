@@ -17,11 +17,11 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <nav className="bg-[#2C2E33] fixed w-full top-0 z-20">
+    <nav className="bg-[#2C2E33] fixed w-full top-0 z-20 border-b border-gray-700">
       <div className="max-w-screen-xl mx-auto p-4 flex flex-wrap items-center justify-between">
         
         {/* Brand Name */}
-        <div className="text-white text-xl font-extrabold tracking-wide">
+        <div className="text-white pl-4 lg:pl-0 text-2xl font-extrabold tracking-wide">
           <Link href="/">
             <span>
               <span className="text-[#AC6CFF]">B</span>VOC
