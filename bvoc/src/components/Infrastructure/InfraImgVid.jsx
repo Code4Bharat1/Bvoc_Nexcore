@@ -10,13 +10,14 @@ const CARD_SIZE = "w-72 h-80 lg:w-96 lg:h-96"; // Card size images aur videos k 
 const infraData = [
   {
     heading: "Work Space 1",
-    items: [{ type: "image", src: "/Basim.jpg", alt: "Workspace 1" },
-        { type: "image", src: "/Basim.jpg", alt: "Workspace 1" },
-        { type: "image", src: "/Basim.jpg", alt: "Workspace 1" },
-        { type: "image", src: "/Basim.jpg", alt: "Workspace 1" },
-        { type: "image", src: "/Basim.jpg", alt: "Workspace 1" },
-        { type: "image", src: "/Basim.jpg", alt: "Workspace 1" },
-        { type: "image", src: "/Basim.jpg", alt: "Workspace 1" },
+    items: [
+        { type: "image", src:"/infrastructure/Basim.jpg", alt: "Workspace 1" },
+        { type: "image", src: "/infrastructure/Basim.jpg", alt: "Workspace 1" },
+        { type: "image", src: "/infrastructure/Basim.jpg", alt: "Workspace 1" },
+        { type: "image", src: "/infrastructure/Basim.jpg", alt: "Workspace 1" },
+        { type: "image", src: "/infrastructure/Basim.jpg", alt: "Workspace 1" },
+        { type: "image", src: "/infrastructure/Basim.jpg", alt: "Workspace 1" },
+        { type: "image", src: "/infrastructure/Basim.jpg", alt: "Workspace 1" },
     ],
   },
   {
@@ -39,10 +40,10 @@ function InfraCard({ item, onClick }) {
           <img
             src={item.src}
             alt={item.alt}
-            className="object-top w-full h-full rounded-md"
+            className="object-top w-full h-full "
           />
         ) : (
-          <video className="w-full h-full rounded-md" muted>
+          <video className="w-full h-full" muted>
             <source src={item.src} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -62,7 +63,7 @@ function Modal({ item, onClose }) {
       onClick={onClose}
     >
       <div
-        className="bg-white p-0 rounded-xl max-w-4xl w-full"
+        className="bg-white rounded-xl max-w-4xl w-full"
         onClick={(e) => e.stopPropagation()}
       >
         {item.type === "image" ? (
