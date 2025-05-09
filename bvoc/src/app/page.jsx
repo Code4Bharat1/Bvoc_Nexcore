@@ -9,6 +9,7 @@ import FiveCards from '@/components/Hub/FiveCards';
 import CareerOpportunities from '@/components/Hub/CareerOpportunities';
 import InDemandCareer from '@/components/Hub/InDemandCareer';
 import CareerPath from '@/components/Hub/CareerPath';
+import KickStart from '@/components/Hub/KickStart';
 
 const Page = () => {
   return (
@@ -23,6 +24,7 @@ const Page = () => {
         <CareerOpportunities/>
         <InDemandCareer/>
         <CareerPath/>
+        <KickStart/>
       </main>
       <Footer />
     </div>
