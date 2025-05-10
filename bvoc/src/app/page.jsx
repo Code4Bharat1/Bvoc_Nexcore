@@ -6,17 +6,29 @@ import Welcome from '@/components/Hub/Welcome';
 import AdmissionCard from '@/components/Hub/AdmissionCard';
 import AboutUs from '@/components/Hub/AboutUs';
 import FiveCards from '@/components/Hub/FiveCards';
+import CareerOpportunities from '@/components/Hub/CareerOpportunities';
+import InDemandCareer from '@/components/Hub/InDemandCareer';
+import CareerPath from '@/components/Hub/CareerPath';
+import KickStart from '@/components/Hub/KickStart';
+import NextLevelRole from '@/components/Hub/NextLevelRole';
+import ShapeTheFuture from '@/components/Hub/ShapeTheFuture';
 
 const Page = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       <Navbar />
-      <main className="flex-grow pt-16"> {/* Add padding top to prevent overlap with fixed navbar */}
+      <main className="flex-grow py-16"> {/* Add padding top to prevent overlap with fixed navbar */}
         {/* Page content goes here */}
         <Welcome/>
         <AdmissionCard/>
         <AboutUs/>
         <FiveCards/>
+        <CareerOpportunities/>
+        <InDemandCareer/>
+        <CareerPath/>
+        <KickStart/>
+        <NextLevelRole/>
+        <ShapeTheFuture/>
       </main>
       <Footer />
     </div>
